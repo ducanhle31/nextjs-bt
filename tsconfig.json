@@ -23,6 +23,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/services/post.service.js", "src/app/post/[postId]/page.jsx", "src/app/post/page.jsx", "src/app/contact/page.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/_services/post.service.js", "src/app/post/[postId]/page.jsx", "src/app/post/page.jsx", "src/app/contact/page.tsx", "src/app/products/page.jsx", "src/app/page.jsx", "src/app/contact/[contactId]/page.tsx"],
   "exclude": ["node_modules"]
 }

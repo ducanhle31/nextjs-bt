@@ -1,7 +1,7 @@
 import Link from "next/link";
 import './products.css';
 
-import { getProducts } from "@/services/product.service";
+import { getProducts } from "@/_services/product.service";
 export default async function Products() {
   const data = await getProducts({page:1});
   return (

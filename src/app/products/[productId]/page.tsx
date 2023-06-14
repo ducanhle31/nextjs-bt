@@ -2,9 +2,9 @@ interface ProductDetailParams{productId:string;}
 interface ProductDetailProps{
   params: ProductDetailParams;
 }
-import { getProductById } from "@/services/product.service";
+import { getProductById } from "@/_services/product.service";
 import 'swiper/css';
-import ProductImageCarousel from "@/component/ProductImageCarousel";
+import ProductImageCarousel from "@/_component/ProductImageCarousel";
 export default async function ProductDetail(
   {params:{productId},}:ProductDetailProps) {
    const data = await getProductById({productId}); 

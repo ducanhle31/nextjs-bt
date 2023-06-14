@@ -54,15 +54,15 @@ const App = () => {
     <div className="App">
       <div className="container">
         {items.slice(0, visible).map((item) => (
-          <div class="card" key={item.id}>
-  <div class="img"></div>
-  <div class="textBox">
-    <div class="textContent">
-      <p class="h1">#{item.userId}</p>
-      <span class="span">12 min ago</span>
+          <div className="card" key={item.id}>
+  <div className="img"></div>
+  <div className="textBox">
+    <div className="textContent">
+      <p className="h1">#{item.userId}</p>
+      <span className="span">12 min ago</span>
     </div>
     
-        <Link  href={`/post/${item.id}`}><p class="p">{item.title}</p></Link>
+        <Link  href={`/post/${item.id}`}><p className="p">{item.title}</p></Link>
 </div>
 </div>
         ))}
